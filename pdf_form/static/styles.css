@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    justify-content: center; /* Centra el formulario en la página */
+    align-items: flex-start; /* Centra verticalmente el contenido en la página */
+    height: 100vh; /* Altura total de la ventana */
+    background-color: #f0f0f0; /* Color de fondo de la página */
+    font-family: 'Arial', sans-serif; /* Estilo de fuente */
+    margin: 0; /* Eliminar márgenes predeterminados del body */
+    padding-top: 20px; /* Añadir un pequeño espacio en la parte superior si es necesario */
+}
+
+form {
+    background-color: #fff; /* Fondo blanco para el formulario */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 13px rgba(0, 0, 0, 0.3); /* Sombra para darle profundidad */
+    padding: 20px; /* Espaciado interno */
+    max-width: 600px; /* Ancho máximo del formulario */
+    margin: 20px auto; /* Centrado horizontal */
+}
+
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: calc(100% - 20px); /* Ancho total del campo menos márgenes */
+    padding: 10px; /* Espaciado interno */
+    margin: 10px 0; /* Margen entre los campos */
+    border: 1px solid #ccc; /* Borde de los campos */
+    border-radius: 4px; /* Bordes redondeados para los campos */
+}
+
+button {
+    background-color: #ba0000; /* Color del botón */
+    color: whitesmoke; /* Color del texto */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px; /* Tamaño de fuente más grande */
+    display: block; /* Para centrar el botón */
+    margin: 0 auto; /* Centrado horizontal */
+    transition: background-color 0.3s, transform 0.3s; /* Efecto de transición */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra para el texto */
+}
+
+button:hover {
+    background-color: #eb0000; /* Color más oscuro al pasar el ratón */
+    transform: scale(1.03); /* Efecto de zoom */
+}
+
+button:active {
+    transform: scale(0.97); /* Disminuir el tamaño al hacer clic */
+}
+
+h1 {
+    font-size: 52px; 
+    margin-top: 20px; 
+    text-align: center; /* Título centrado */
+    color: #333; /* Color del texto del título */
+    margin-bottom: 20px; /* Margen inferior para el título */
+}
+
+.input-container {
+    display: flex;
+    align-items: center; /* Alinear verticalmente los elementos */
+}
+
+select {
+    margin-right: 10px; /* Espacio entre el desplegable y el campo de texto */
+    padding: 5px; /* Añadir un poco de padding para mejorar la apariencia */
+    font-size: 16px; /* Asegúrate de que el tamaño de la fuente sea coherente */
+}
+
+input[type="text"] {
+    flex: 1; /* Para que el campo de texto ocupe el espacio restante */
+    padding: 5px;
+    font-size: 16px; /* Tamaño de fuente para el campo de texto */
+}
