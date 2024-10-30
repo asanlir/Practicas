@@ -21,8 +21,7 @@ Sigue estos pasos para clonar el repositorio y ejecutar la aplicación:
 2. **Navegar al directorio del proyecto**
 
    ```bash
-   cd tu_repositorio
-   ```
+   cd pdf_form
 
 3. **Crear un entorno virtual (opcional pero recomendado)**
 
