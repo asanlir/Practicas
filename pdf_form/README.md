@@ -1,4 +1,4 @@
-# Generador Formulario en PDF
+# Generador de Formularios en PDF
 
 Este proyecto es una aplicación web sencilla creada con Flask que permite a los usuarios introducir datos personales y generar un PDF con la información proporcionada.
 
@@ -75,6 +75,3 @@ La aplicación se ejecutará en `http://127.0.0.1:5000/`. Abre tu navegador web 
 
 Las contribuciones son bienvenidas. Si deseas realizar cambios o mejoras, por favor, abre un *issue* o envía un *pull request*.
 
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
