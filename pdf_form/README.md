@@ -16,10 +16,7 @@ Sigue estos pasos para clonar el repositorio y ejecutar la aplicación:
    Abre una terminal y ejecuta el siguiente comando:
 
    ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
-   ```
-
-   Reemplaza `tu_usuario` y `tu_repositorio` con tu nombre de usuario de GitHub y el nombre de tu repositorio.
+   git clone https://github.com/asanlir/Practicas/pdf_form.git
 
 2. **Navegar al directorio del proyecto**
 
